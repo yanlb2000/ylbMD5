@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="02 GUI">
+      <UniqueIdentifier>{0be080b9-8edc-49b1-a2a4-26150d9268e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 Common">
+      <UniqueIdentifier>{15339b34-ab93-41bd-9e2c-09717c3676f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 Processor">
+      <UniqueIdentifier>{68a8a2c3-8a9f-458b-b8f9-ce53032ffd9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 FrameWork">
+      <UniqueIdentifier>{e8335339-c069-42cd-9324-15c418b9b41e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ylbMD5Tool.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ylbMD5Tool.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\ylbMD5Tool.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ylbMD5Tool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PageMD5File.cpp">
+      <Filter>02 GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PageMD5String.cpp">
+      <Filter>02 GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PageMD5Time.cpp">
+      <Filter>02 GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ylbMD5ToolDlg.cpp">
+      <Filter>02 GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>03 Common</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>03 Common</Filter>
+    </ClCompile>
+    <ClCompile Include="FindEmail.cpp">
+      <Filter>04 Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>04 Processor</Filter>
+    </ClCompile>
+    <ClCompile Include="ylbMD5Tool.cpp">
+      <Filter>01 FrameWork</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PageMD5File.h">
+      <Filter>02 GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PageMD5String.h">
+      <Filter>02 GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PageMD5Time.h">
+      <Filter>02 GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ylbMD5ToolDlg.h">
+      <Filter>02 GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>03 Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>03 Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>03 Common</Filter>
+    </ClInclude>
+    <ClInclude Include="FindEmail.h">
+      <Filter>04 Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>04 Processor</Filter>
+    </ClInclude>
+    <ClInclude Include="ylbMD5Tool.h">
+      <Filter>01 FrameWork</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
